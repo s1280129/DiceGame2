@@ -5,6 +5,12 @@
 int main(void){
  
   int s1,s2;
+  char name[50];
+
+  printf("What is your name?\n>");
+  scanf("%s",name);
+  printf("Hello,%s!\n",name);
+  
  
   /* 乱数の種を初期化 */
   srand(time(NULL));
